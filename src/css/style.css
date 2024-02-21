@@ -90,6 +90,7 @@ body {
     border-radius: 10px;
     padding: 15px 20px;
     width: 100%;
+    transition: 0.3s ease-in-out;
 }
 
 .add-button img {
@@ -101,4 +102,8 @@ body {
 .add-button p{
     color: hsl(0, 0%, 100%);
     font-weight: 500;
+}
+
+.add-button:hover{
+    background-color: hsl(156, 42%, 18%);
 }

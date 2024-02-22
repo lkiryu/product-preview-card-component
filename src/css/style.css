@@ -54,7 +54,7 @@ body {
     line-height: 30px;
 }
 
-.info .description{
+.info .description {
     color: hsl(228, 12%, 48%);
     font-weight: 500;
     font-size: 14px;
@@ -62,13 +62,13 @@ body {
     margin-bottom: 25px;
 }
 
-.info .price{
+.info .price {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
 }
 
-.price .discount-price{
+.price .discount-price {
     font-family: "Fraunces", serif;
     font-size: 32px;
     font-weight: 700;
@@ -76,13 +76,13 @@ body {
     margin-right: 20px;
 }
 
-.price .full-price{
+.price .full-price {
     font-weight: 500;
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
 }
 
-.add-button{
+.add-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,11 +99,11 @@ body {
     margin-right: 10px;
 }
 
-.add-button p{
+.add-button p {
     color: hsl(0, 0%, 100%);
     font-weight: 500;
 }
 
-.add-button:hover{
+.add-button:hover {
     background-color: hsl(156, 42%, 18%);
 }

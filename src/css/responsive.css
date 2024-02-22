@@ -1,0 +1,21 @@
+@media(max-width:768px) {
+    .card {
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .card .product-image {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card .info {
+        padding: 20px 25px;
+    }
+
+    .info .product-type,
+    .info .product-name,
+    .info .description,
+    .info .price {
+        margin-bottom: 15px;
+    }
+}
